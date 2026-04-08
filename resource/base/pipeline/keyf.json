@@ -1,0 +1,43 @@
+{
+    "$__mpe_config_新建Pipeline4": {
+        "$__mpe_code": {
+            "prefix": "",
+            "lastSyncTime": 1775671288921,
+            "isModifiedExternally": false,
+            "filePath": "C:\\Users\\26545\\Documents\\MaaPipeline\\test.json",
+            "savedViewport": {
+                "x": -2667,
+                "y": 65,
+                "zoom": 1.32
+            },
+            "filename": "新建Pipeline4",
+            "version": "v1.4.1"
+        }
+    },
+    "测试按键": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    398,
+                    214,
+                    83,
+                    34
+                ],
+                "expected": [
+                    "开发思路"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {}
+        },
+        "$__mpe_code": {
+            "position": {
+                "x": 2390,
+                "y": 130
+            }
+        }
+    }
+}

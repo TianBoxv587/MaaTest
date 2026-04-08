@@ -1,0 +1,37 @@
+{
+    "$__mpe_config_StartUp": {
+        "$__mpe_code": {
+            "prefix": "",
+            "lastSyncTime": 1775665747427,
+            "isModifiedExternally": false,
+            "filePath": "C:\\Users\\26545\\Desktop\\Maatest\\assets\\resource\\base\\pipeline\\my_task.json",
+            "savedViewport": {
+                "x": 16,
+                "y": 263,
+                "zoom": 1.32
+            },
+            "filename": "StartUp",
+            "version": "v1.4.1"
+        }
+    },
+    "测试": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "f1"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {}
+        },
+        "$__mpe_code": {
+            "position": {
+                "x": 461,
+                "y": -25
+            }
+        }
+    }
+}

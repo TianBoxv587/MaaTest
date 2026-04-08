@@ -1,0 +1,11 @@
+{
+    "tasks": [
+        {
+            "name": "启动游戏",
+            "entry": "StartUp",
+            "controller": [
+                "Win"
+            ]
+        }
+    ]
+}

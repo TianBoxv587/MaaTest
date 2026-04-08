@@ -1,0 +1,14 @@
+{
+    "tasks": [
+        {
+            "name": "关闭游戏",
+            "entry": "CloseGame",
+            "controller": [
+                "Win"
+            ],
+            "group": [
+                "daily"
+            ]
+        }
+    ]
+}
