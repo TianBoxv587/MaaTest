@@ -8,11 +8,11 @@
             "name": "Win",
             "type": "Win32",
             "win32": {
-                "class_regex": "^(UE4|Unreal).*",
-                "window_regex": "洛克王国",
-                "screencap": "FramPool",
-                "mouse": "PostMessageWithCursorPos",
-                "keyboard": "PostMessageWithCursorPos"
+                "class_regex": ".*",
+                "window_regex": "和",
+                "screencap": "Background",
+                "mouse": "SendMessageWithCursorPos",
+                "keyboard": "PostMessage"
             }
         }
     ],
@@ -20,20 +20,33 @@
         {
             "name": "桌面端",
             "path": [
-                "./resource/base",
-                "./resource"
+                "./resource/base"
             ],
             "controller": [
                 "Win"
             ]
         }
     ],
-    "task": [],
+    "task": [
+        {
+            "name": "测试按键",
+            "entry": "测试按键",
+            "controller": [
+                "Win"
+            ]
+        }
+    ],
     "group": [],
     "option": {},
-    "import": [
-        "./resource/tasks/preset/Daily.json",
-        "./resource/tasks/StartUp.json",
-        "./resource/tasks/CloseGame.json"
+    "import": [],
+    "preset": [
+        {
+            "name": "默认预设",
+            "task": [
+                {
+                    "name": "测试按键"
+                }
+            ]
+        }
     ]
 }

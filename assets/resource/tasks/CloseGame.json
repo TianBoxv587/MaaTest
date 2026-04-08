@@ -5,9 +5,6 @@
             "entry": "CloseGame",
             "controller": [
                 "Win"
-            ],
-            "group": [
-                "daily"
             ]
         }
     ]
